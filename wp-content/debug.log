@@ -1,0 +1,355 @@
+[07-Oct-2024 03:12:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:12:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:12:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:12:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:13:36 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:13:36 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:15:37 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:15:37 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:17:38 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:17:38 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:18:42 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:18:42 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:19:43 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:19:43 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:20:44 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:20:44 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:21:45 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:21:45 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:22:46 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:22:46 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:24:47 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:24:47 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:24:47 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:24:47 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:45:43 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:45:43 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:46:44 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:46:44 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:48:45 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:48:45 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:49:52 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:49:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:49:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[07-Oct-2024 03:49:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[07-Oct-2024 03:49:53 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:49:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:27 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:31 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:34 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:34 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\options-permalink.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:37 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\options-permalink.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:38 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:39 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-login.php(12): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:40 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:41 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\options-permalink.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:42 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\options-permalink.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:43 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\options-permalink.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:50:52 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-login.php(12): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 49
+[07-Oct-2024 03:51:00 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:00 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:08 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:08 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:08 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:08 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:09 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:09 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:15 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:15 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:15 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:15 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:35 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:40 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:40 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:41 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:51:41 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:53:22 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:53:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:70
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 70
+[07-Oct-2024 03:53:34 UTC] Post type "navigation" đã được đăng ký thành công.
+[07-Oct-2024 03:53:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_meta_box() in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php:70
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): add_custom_meta_box_to_wp_navigation('wp_navigation')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\post.php(1841): do_action('registered_post...', 'wp_navigation', Object(WP_Post_Type))
+#4 C:\xampp\htdocs\wordpress\wp-includes\post.php(519): register_post_type('wp_navigation', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): create_initial_post_types('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(700): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\week3\functions.php on line 70
